@@ -1,0 +1,41 @@
+NFLTeams = ["Patriots",
+            "Chiefs"
+            "Jaguars"
+            "49ers"
+            "Raiders"
+            "Chargers"
+            "Jets"
+            "Dolphins"
+            "Bills"
+            "Titans"
+            "Texans"
+            "Colts"
+            "Steelers"
+            "Browns"
+            "Bengals"
+            "Ravens"
+            "Broncos"
+            "Cowboys"
+            "Giants"
+            "Redskins"
+            "Eagles"
+            "Packers"
+            "Lions"
+            "Vikings"
+            "Bears"
+            "Falcons"
+            "Buccaneers"
+            "Saints"
+            "Panthers"
+            "Seahawks"
+            "Cardinals"
+            "Rams"]
+
+
+guess = input("Name an NFL team:")
+
+if guess in NFLTeams:
+    print("Nice.")
+else:
+    print("That's not an NFL team - don't forget to begin the name with a capital")
+
